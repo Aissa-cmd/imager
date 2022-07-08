@@ -1,0 +1,22 @@
+Commnad for creating the signing key
+
+"C:\Program Files\Android\Android Studio\jre\bin\keytool" -genkey -v -keystore c:\Users\aissa\upload-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+
+-------------------------------
+
+What is your first and last name?
+  [Unknown]:  Aissa Ouboukioud
+What is the name of your organizational unit?
+  [Unknown]:
+What is the name of your organization?
+  [Unknown]:
+What is the name of your City or Locality?
+  [Unknown]:  Agadir
+What is the name of your State or Province?
+  [Unknown]:  Agadir
+What is the two-letter country code for this unit?
+  [Unknown]:  ma
+Is CN=Aissa Ouboukioud, OU=Unknown, O=Unknown, L=Agadir, ST=Agadir, C=ma correct?
+  [no]:  yes
+
+
